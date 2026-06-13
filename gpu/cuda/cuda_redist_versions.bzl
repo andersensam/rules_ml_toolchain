@@ -90,6 +90,10 @@ CUDA_REDIST_JSON_DICT = {
         "https://developer.download.nvidia.com/compute/cuda/redist/redistrib_12.9.1.json",
         "8335301010b0023ee1ff61eb11e2600ca62002d76780de4089011ad77e0c7630",
     ],
+    "12.9.2": [
+        "https://developer.download.nvidia.com/compute/cuda/redist/redistrib_12.9.2.json",
+        "236b051e6c7915a31ed9da369ea74ddb5b0fbf77eb1dffc10640e7ce6ed10257",
+    ],
     "13.0.0": [
         "https://developer.download.nvidia.com/compute/cuda/redist/redistrib_13.0.0.json",
         "fe6a86b54450d03ae709123a52717870c49046d65d45303ce585c7aa8a83a217",

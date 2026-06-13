@@ -253,7 +253,8 @@ def _compute_capabilities(repository_ctx):
             version = capability[len(prefix):]
 
             # Allow PTX accelerated features: sm_90a, sm_100a, etc.
-            if version.endswith("a"):
+            # and family-compatible features: sm_100f, sm_103f, etc.
+            if version.endswith("a") or version.endswith("f"):
                 version = version[:-1]
             if version.isdigit() and len(version) in (2, 3):
                 continue
